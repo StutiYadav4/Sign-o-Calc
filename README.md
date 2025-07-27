@@ -2,7 +2,7 @@
 > A gesture-controlled calculator built using OpenCV, MediaPipe, and Python
 
 
-## 🎯 What is Sign-o-Calc?
+## What is Sign-o-Calc?
 
 **Sign-o-Calc** is a real-time, gesture-based calculator that lets you perform arithmetic operations — using just your hands! It uses your webcam to detect hand gestures and translates them into digits and mathematical operators to evaluate expressions on the go.
 
