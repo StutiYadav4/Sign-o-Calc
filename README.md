@@ -11,12 +11,6 @@ Whether you're working on math or just exploring gesture recognition, Sign-o-Cal
 
 ---
 
-## Live Demo
-
-▶️ [Live Demo](https://drive.google.com/file/d/1VEp-ocZ3whij9FCrFjuvzPHI47F0kVPA/view?usp=drive_link)
-
----
-
 ## Features
 
 - Real-time gesture recognition using MediaPipe and OpenCV
@@ -26,6 +20,12 @@ Whether you're working on math or just exploring gesture recognition, Sign-o-Cal
 - Automatically evaluates valid expressions and displays results
 - Live on-screen expression updates
 - Error-handling for invalid expressions
+
+---
+
+## Live Demo
+
+▶️ [Live Demo](https://drive.google.com/file/d/1VEp-ocZ3whij9FCrFjuvzPHI47F0kVPA/view?usp=drive_link)
 
 ---
 
