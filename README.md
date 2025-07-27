@@ -1,63 +1,72 @@
 # Sign-o-Calc
 > A gesture-controlled calculator built using OpenCV, MediaPipe, and Python
 
+---
 
 ## What is Sign-o-Calc?
 
-**Sign-o-Calc** is a real-time, gesture-based calculator that lets you perform arithmetic operations — using just your hands! It uses your webcam to detect hand gestures and translates them into digits and mathematical operators to evaluate expressions on the go.
+**Sign-o-Calc** is a real-time, gesture-based calculator that allows you to perform arithmetic operations using only hand gestures. Using a webcam and hand tracking via MediaPipe, it recognizes different finger combinations to represent numbers and mathematical operators.
 
-Whether you're doing math or just want to look cool while doing it, Sign-o-Calc is your sign language-powered math buddy.
-
----
-
-## ✨ Features
-
-- Real-time webcam gesture detection using **OpenCV** and **MediaPipe**
-- Detects all **digits (0–9)** using intuitive hand signs
-- Supports **+, -, *, /, ^, (, ), sqrt,.** operators
-- Use gestures for **equals to** and **clear**
-- Shows **“Invalid Expression”** for consecutive operators
-- Clean output window with live expression updates
+Whether you're working on math or just exploring gesture recognition, Sign-o-Calc provides a hands-free and interactive way to evaluate expressions.
 
 ---
 
-## 🧠 Gesture Mappings
+## Features
 
-| Gesture | Meaning | Fingers |
-|--------|---------|---------|
-| Fist | = | ✊ |
-| Pinky | + | 🤙 |
-| Thumb + Pinky | / | 🤙👉 |
-| Index + Pinky | * | ✌️+Pinky |
-| Index + Thumb + Pinky | - | 🤟+Pinky |
-| Ring | Clear (C) | 💍 |
-| Digits 0–9 | Shown Below | 👇 |
+- Real-time gesture recognition using MediaPipe and OpenCV
+- Full digit support (0–9) through intuitive finger combinations
+- Supports arithmetic operations: `+`, `-`, `*`, `/`, `=`, `C` (Clear)
+- Includes advanced operations: `^` (power), `√` (square root), `(`, `)`, and `.`
+- Automatically evaluates valid expressions and displays results
+- Live on-screen expression updates
+- Error-handling for invalid expressions
 
-### ✋ Digit Mapping
-| Digit | Gesture |
-|-------|---------|
-| 0 | Fist |
-| 1 | Index |
-| 2 | Index + Middle |
-| 3 | Index + Middle + Ring |
-| 4 | Index + Middle + Ring + Pinky |
-| 5 | All Fingers |
-| 6 | Thumb |
-| 7 | Thumb + Index |
-| 8 | Thumb + Index + Middle |
-| 9 | Thumb + Index + Middle + Ring |
+---
+
+## Gesture Mappings
+
+### Right Hand: Numbers and Basic Operators
+
+| Gesture                       | Input |
+|------------------------------|-------|
+| Middle Finger                | `=`   |
+| Pinky only                   | `+`   |
+| Thumb + Pinky                | `/`   |
+| Index + Pinky                | `*`   |
+| Thumb + Index + Pinky        | `-`   |
+| Ring finger only             | `C` (Clear) |
+| Index                        | `1`   |
+| Index + Middle               | `2`   |
+| Index + Middle + Ring        | `3`   |
+| Index + Middle + Ring + Pinky| `4`   |
+| All fingers                  | `5`   |
+| Thumb                        | `6`   |
+| Thumb + Index                | `7`   |
+| Thumb + Index + Middle       | `8`   |
+| Thumb + Index + Middle + Ring| `9`   |
+| Thumb + Middle + Ring + Pinky| `0`   |
+
+### Left Hand: Special Symbols
+
+| Fingers Up | Symbol |
+|------------|--------|
+| 1 (Index)  | `^`    |
+| 2          | `√`    |
+| 3          | `(`    |
+| 4          | `)`    |
+| 5          | `.`    |
 
 ---
 
 ## Live Demo
 
-[![Sign-o-Calc Demo](https://img.youtube.com/vi/your_video_id/0.jpg)](https://youtu.be/your_video_id)
+[![Watch the Demo](https://img.youtube.com/vi/your_video_id/0.jpg)](https://youtu.be/your_video_id)
 
 ---
 
-## How to Run
+## Installation
 
-### 1. Clone this repository
+### Clone the repository
 ```bash
 git clone https://github.com/stutiyadav/sign-o-calc.git
 cd sign-o-calc
