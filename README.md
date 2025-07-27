@@ -51,16 +51,16 @@ Whether you're working on math or just exploring gesture recognition, Sign-o-Cal
 | Fingers Up | Symbol |
 |------------|--------|
 | 1 (Index)  | `^`    |
-| 2          | `√`    |
-| 3          | `(`    |
-| 4          | `)`    |
-| 5          | `.`    |
+| 2 fingers  | `√`    |
+| 3 fingers  | `(`    |
+| 4 fingers  | `)`    |
+|All 5 fingers| `.`    |
 
 ---
 
 ## Live Demo
 
-[![Watch the Demo](https://via.placeholder.com/800x450.png?text=Watch+Sign-o-Calc+Demo)](https://drive.google.com/file/d/1VEp-ocZ3whij9FCrFjuvzPHI47F0kVPA/view?usp=drive_link)
+[![Live Demo](https://drive.google.com/file/d/1VEp-ocZ3whij9FCrFjuvzPHI47F0kVPA/view?usp=drive_link)
 
 ---
 
