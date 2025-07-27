@@ -1,7 +1,6 @@
-# ✋ Sign-o-Calc 🧠
+# Sign-o-Calc
 > A gesture-controlled calculator built using OpenCV, MediaPipe, and Python
 
-![Sign-o-Calc Banner](https://i.imgur.com/your_demo_image.png) <!-- Optional banner/demo image -->
 
 ## 🎯 What is Sign-o-Calc?
 
